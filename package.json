@@ -1,11 +1,11 @@
 {
-  "name": "http-server",
-  "version": "0.11.1",
+  "name": "http-server2",
+  "version": "1.0.0",
   "description": "A simple zero-configuration command-line http server",
   "main": "./lib/http-server",
   "repository": {
     "type": "git",
-    "url": "git://github.com/indexzero/http-server.git"
+    "url": "git://github.com/marlic7/http-server.git"
   },
   "keywords": [
     "cli",
