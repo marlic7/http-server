@@ -1,6 +1,6 @@
 {
   "name": "http-server2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple zero-configuration command-line http server",
   "main": "./lib/http-server",
   "repository": {
@@ -13,7 +13,6 @@
   ],
   "scripts": {
     "start": "node ./bin/http-server",
-    "pretest": "common bin/http-server lib/ test",
     "test": "vows --spec --isolate"
   },
   "files": [
@@ -66,17 +65,16 @@
     }
   ],
   "dependencies": {
-    "colors": "1.0.3",
+    "colors": "1.4.0",
     "corser": "~2.0.0",
-    "ecstatic": "^3.0.0",
+    "ecstatic": "^3.3.2",
     "http-proxy": "^1.8.1",
-    "opener": "~1.4.0",
-    "optimist": "0.6.x",
+    "opener": "~1.5.2",
+    "optimist": "0.6.1",
     "portfinder": "^1.0.13",
-    "union": "~0.4.3"
+    "union": "~0.5.0"
   },
   "devDependencies": {
-    "common-style": "^3.0.0",
     "request": "2.49.x",
     "vows": "0.7.x"
   },
@@ -84,7 +82,6 @@
     "url": "https://github.com/nodeapps/http-server/issues"
   },
   "license": "MIT",
-  "preferGlobal": "true",
   "bin": {
     "http-server": "./bin/http-server",
     "hs": "./bin/http-server"
